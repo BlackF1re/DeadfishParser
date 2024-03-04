@@ -39,7 +39,7 @@
                 if (command is 'o')
                 {
                     output[outputIndexCounter] = accumulator; //запись результата
-                    accumulator = 0; //обнуление аккумулятора для следующего значения
+                    //accumulator = 0; //обнуление аккумулятора для следующего значения
                     outputIndexCounter++; //переход на следующий индекс вывода
                     continue;
                 }    
